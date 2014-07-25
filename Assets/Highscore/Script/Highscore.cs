@@ -6,8 +6,8 @@ using System.Security;
 public class Highscore : MonoBehaviour 
 {
 	public string secretKey = "12345";
-	public string PostScoreUrl = "http://YouWebsite.com/.../postScore.php?";
-	public string GetHighscoreUrl = "http://YouWebsite.com/.../getHighscore.php";
+	public string PostScoreUrl = "inkastudios.com/ScriptsPHPparaManejodeBD/WhereisMyCebiche/postScore.php";
+	public string GetHighscoreUrl = "inkastudios.com/ScriptsPHPparaManejodeBD/WhereisMyCebiche/getHighscore.php";
 
 	private string name = "Name";
 	private string score = "Score";
@@ -34,7 +34,6 @@ public class Highscore : MonoBehaviour
 		windowRect = new Rect (Screen.width / 2 -(windowWidth / 2), 40, windowWidth, Screen.height - 50);
 		windowHeight = Screen.height - 50;
 	}
-	
 	IEnumerator GetScore()
 	{
 		Score = "";
@@ -57,6 +56,7 @@ public class Highscore : MonoBehaviour
 			WindowTitel = "Done";
        		Score = www.text;
 		}
+		Debug.Log ("Entro coroutine GetScore");
 	}
 	
 	IEnumerator PostScore(string name, int score)
@@ -88,19 +88,20 @@ public class Highscore : MonoBehaviour
 	
 	void OnGUI()
 	{
-	GUI.skin = Skin;
+		GUI.skin = Skin;
 		
 		windowRect = GUI.Window(0, windowRect, DoMyWindow, WindowTitel);
 	
 		name = GUI.TextField (new Rect (Screen.width / 2 - 160, 10, 100, 20), name, maxNameLength);
-    	score = GUI.TextField (new Rect (Screen.width / 2 - 50, 10, 100, 20), score, 25);
-		
+    	score = GUI.TextField (new Rect (Screen.width / 2 - 50, 10, 100, 20), score, 25);;
     	if (GUI.Button(new Rect(Screen.width / 2 + 60, 10, 90, 20),"Post Score"))
     	{
+
+
 			StartCoroutine(PostScore(name, int.Parse(score)));
        		name = "";
        		score = "";
-    	}    
+		}
 	}
 	
 	void DoMyWindow(int windowID) 
@@ -111,6 +112,7 @@ public class Highscore : MonoBehaviour
     	
     	if (GUI.Button(new Rect(15,Screen.height - 90,70,30),"Refresh"))
     	{
+			Debug.Log ("Refresh");
 			StartCoroutine("GetScore");
     	}         
     }
