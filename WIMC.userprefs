@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Highscore/Script/Highscore.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Runner2DUserControl.cs">
     <Files>
-      <File FileName="Assets/Highscore/Script/Highscore.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Runner2DUserControl.cs" Line="41" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

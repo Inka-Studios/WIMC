@@ -1,6 +1,8 @@
 fileFormatVersion: 2
 guid: 09d6b81ae37e74e72be854ffd9c37a6d
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: hastu piso pasto_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
