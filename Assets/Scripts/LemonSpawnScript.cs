@@ -16,11 +16,11 @@ public class LemonSpawnScript : MonoBehaviour {
 		Vector3 pos = transform.position;
 		while (_lemons < 4) {
 			PoolManager.Pools["RunnerPool"].Spawn (unitPrefab, pos, Quaternion.identity);
-			pos.x += 1.5f; 
+			pos.x += 1.0f; 
 			_lemons += 1;
 		}
 		_lemons = 0;
-		Debug.Log ("Lemon counter is: " + _lemons);
+		//Debug.Log ("Lemon counter is: " + _lemons);
 		Invoke ("Spawning", Random.Range(_spawnMin, _spawnMax));
 	}
 }

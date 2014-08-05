@@ -1,0 +1,372 @@
+fileFormatVersion: 2
+guid: 36134a2a4f76f48b8ab51638d2ed69c1
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 2
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Web
+    maxTextureSize: 4096
+    textureFormat: -3
+    compressionQuality: 50
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -3
+    compressionQuality: 50
+  - buildTarget: iPhone
+    maxTextureSize: 4096
+    textureFormat: -3
+    compressionQuality: 50
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -3
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: atlas cayendo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3898
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_1
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 3898
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_2
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 3898
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_3
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 3898
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_4
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 3898
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_5
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 3898
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_6
+      rect:
+        serializedVersion: 2
+        x: 5670
+        y: 3898
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2953
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_8
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2953
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_9
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 2953
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_10
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 2953
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_11
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 2953
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_12
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 2953
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_13
+      rect:
+        serializedVersion: 2
+        x: 5670
+        y: 2953
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2008
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_15
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2008
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_16
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 2008
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_17
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 2008
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_18
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 2008
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_19
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 2008
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_20
+      rect:
+        serializedVersion: 2
+        x: 5670
+        y: 2008
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1063
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_22
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1063
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_23
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1063
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_24
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 1063
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_25
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 1063
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_26
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 1063
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_27
+      rect:
+        serializedVersion: 2
+        x: 5670
+        y: 1063
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 118
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_29
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 118
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: atlas cayendo_30
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 118
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,8 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Runner2DUserControl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RunnerCharacter2D.cs">
     <Files>
-      <File FileName="Assets\Scripts\Runner2DUserControl.cs" Line="41" Column="4" />
+      <File FileName="Assets/Scripts/Runner2DUserControl.cs" Line="50" Column="23" />
+      <File FileName="Assets/Scripts/DestroyerScript.cs" Line="130" Column="37" />
+      <File FileName="Assets/Scripts/LemonSpawnScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/RunnerCharacter2D.cs" Line="18" Column="41" />
+      <File FileName="Assets/Scripts/WaterScript.cs" Line="12" Column="71" />
+      <File FileName="Assets/Scripts/HUDScript.cs" Line="17" Column="28" />
+      <File FileName="Assets/Scripts/RestartScript.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

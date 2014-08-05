@@ -11,22 +11,14 @@ public class RunnerCharacter2D : MonoBehaviour
 
 		// Private variables
 		private bool _facingRight = true;
-		[SerializeField]
-		private float
-				_maxSpeed = 10f;
-		[SerializeField]
-		private float
-				_jumpForce = 400f;
+		[SerializeField] private float _maxSpeed = 10f;
+		[SerializeField] private float _jumpForce = 950.0f;
 		private bool _airControl = false;
-		[SerializeField]
-		private LayerMask
-				_whatIsGround;
-		private float _groundedRadius = 0.2f;
+		[SerializeField] private LayerMask _whatIsGround;
+		private float _groundedRadius = 0.01f;
 		private bool _grounded = false;
 		private Animator _anim;
-		[SerializeField]
-		private float
-				_maxFresh;
+		[SerializeField] private float _maxFresh;
 		private float _freshness;
 		private float _waterValue = 5.0f;
 		private float _howFresh;
